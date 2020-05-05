@@ -1,26 +1,35 @@
 import React from 'react';
-import logo from './logo.svg';
+import { createBrowserHistory } from 'history'
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+import * as Constants from './constants/App';
+import Header from './components/header';
+import Navigation from './components/navigation';
+
+
+class App extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      history: createBrowserHistory(),
+    };  
+  }
+
+  shouldComponentUpdate = () => {
+    return false;
+  }
+
+  render() {
+    return (
+      <div className="App">
+        <Header />
+        <Navigation history={this.state.history} />
+        <div id="version">{ Constants.VERSION }</div>
+      </div>
+      
+    );
+  }
 }
+
 
 export default App;
