@@ -5,10 +5,10 @@ To fasten syntactic structure construction, particularly syntactic treebank, we 
 
 ## Annotation modes
 *   Simple: Annotating with labeled bracket manually.
-*   **[`Semi`](https://ieeexplore.ieee.org/document/8442061)**: Annotating along with artificial advisors (soon).
+*   **[Semi](https://ieeexplore.ieee.org/document/8442061)**: Annotating along with artificial advisors (soon).
 
 ## Documentations
-*   **[`Guidelines`](https://digital.library.tu.ac.th/tu_dc/frontend/Info/item/dc:138839)**: Annotation standard, particularly for Thai syntactic structures (soon).
+*   **[Guidelines](https://digital.library.tu.ac.th/tu_dc/frontend/Info/item/dc:138839)**: Annotation standard, particularly for Thai syntactic structures (soon)
 
 ## Contributions
 *   **[AIAT](https://aiat.or.th)**: Artificial Intelligence Association of Thailand
