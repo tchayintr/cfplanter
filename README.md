@@ -1,11 +1,13 @@
 # Yet another syntactic structure annotation built with passion
-### **[`CFPlanter.org`](https://cfplanter.org)**
+### **[CFPlanter.org](https://cfplanter.org)**
+
+CF stands for Cassia fistula, the national tree and national flower of Thailand. We originally aim to annotate syntactic trees for Thai language by composing a metaphor that we are planting trees for our nation towards Thai Computational Linguistics advancement.
 
 To fasten syntactic structure construction, particularly syntactic treebank, we willingly introduce a so-called CFPlanter, web-based anotation tool, implement with passion for researchers and enthusiasts. 
 
 ## Annotation modes
-*   Simple: Annotating with labeled bracket manually.
-*   **[Semi](https://ieeexplore.ieee.org/document/8442061)**: Annotating along with artificial advisors (soon).
+*   Simple: Annotating with labeled bracket manually
+*   **[Semi](https://ieeexplore.ieee.org/document/8442061)**: Annotating along with artificial advisors (soon)
 
 ## Documentations
 *   **[Guidelines](https://digital.library.tu.ac.th/tu_dc/frontend/Info/item/dc:138839)**: Annotation standard, particularly for Thai syntactic structures (soon)
