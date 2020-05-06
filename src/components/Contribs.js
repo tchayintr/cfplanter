@@ -5,8 +5,12 @@ import Grid from '@material-ui/core/Grid';
 const Contribs = () => {
    return (
       <div id="contribs">
-          <Grid container spacing={3}>
-          <Grid item xs={12}>
+         <Grid container spacing={3}>
+            <Grid item xs={12}>
+               <h3><a href="https://github.com/tchayintr/cfplanter">CFPlanter</a></h3>
+               <p>CFPlanter github repository</p>
+            </Grid>
+            <Grid item xs={12}>
                <h3><a href="https://aiat.or.th">AIAT</a></h3>
                <p>Artificial Intelligence Association of Thailand</p>
             </Grid>
@@ -23,9 +27,9 @@ const Contribs = () => {
                <p>Implementations based on modification of jsSyntaxTree</p>
             </Grid>
             <Grid item xs={12}>
-              <img src="/cf.png" width="200" height="200" alt="cfplanter-logo" ></img>
+               <img src="/cf.png" width="200" height="200" alt="cfplanter-logo" ></img>
             </Grid>
-          </Grid>
+         </Grid>
       </div>
     );
 }
