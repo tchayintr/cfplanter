@@ -7,3 +7,13 @@ export const saveShovelState = (state) => {
         }
     }
 };
+
+export const saveShovelCursor = (state) => {
+    return {
+        type: "SAVE_SHOVEL_CURSOR",
+        payload: {
+            selectionStart: state.selectionStart,
+            selectionEnd: state.selectionEnd,
+        }
+    }
+};

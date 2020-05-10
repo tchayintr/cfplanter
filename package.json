@@ -1,6 +1,6 @@
 {
   "name": "cfplanter",
-  "version": "0.2.2b",
+  "version": "0.2.3b",
   "private": true,
   "dependencies": {
     "@material-ui/core": "^4.9.12",

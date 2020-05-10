@@ -1,7 +1,7 @@
 import React from 'react';
 
 import { store } from '../store/shovel';
-import { saveShovelState } from '../actions/shovel';
+import { saveShovelState, saveShovelCursor } from '../actions/shovel';
 
 import * as Constants from '../constants/shovel';
 
@@ -30,10 +30,29 @@ class Shovel extends React.Component {
     this.handleInitRows();
   }
 
+  componentWillUnmount() {
+    const shovelTextarea = document.getElementById('lb');
+    const currentCursor = {
+      selectionStart: shovelTextarea.selectionStart,
+      selectionEnd: shovelTextarea.selectionEnd,
+    };
+
+    store.dispatch(saveShovelCursor(currentCursor));
+  }
+
   initCursor(event) {
-    var tmp = event.target.value
-    event.target.value = ''
-    event.target.value = tmp
+    var tmp = event.target.value;
+    event.target.value = '';
+    event.target.value = tmp;
+
+    const selectionStart = store.getState().selectionStart;
+    const selectionEnd = store.getState().selectionStart;
+
+    if (selectionStart && selectionEnd) {
+      event.target.selectionStart = selectionStart;
+      event.target.selectionEnd = selectionEnd;
+    }
+    
   }
 
   handleValueProps = () => {

@@ -11,6 +11,8 @@ const initialState = {
     maxRows: Constants.TEXTAREA_MAX_ROWS,
     placeholder: Constants.LB_PLACEHOLDER,
     className: Constants.LB_CLASSNAME,
+    selectionStart: null,
+    selectionEnd: null,
  };
 
  
