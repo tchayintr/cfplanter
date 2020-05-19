@@ -27,14 +27,12 @@ const Guidelines = () => {
             <Grid item xs={12}>
                 <div>
                   <h4>Common features</h4>
-                  <ul>
-                    <p><i>Appearances</i>: alignment, colour, subscript, triangles</p>
-                    <p><i>Download</i>: Click on the syntax tree image to download</p>
-                    <p><i>Subscripting</i>: Add subscripts manually by using underscore e.g. [NCMN_s ต้นไม้]</p>
-                    <p><i>Real-time</i>: Graph will update automatically in real-time</p>
-                    <p><i>Spacing</i>: Add spaces in Nonterminal node by using double quote e.g. ["VACT ABC" ปลูก]</p>
-                    <p><i>Unicode</i>: Support unicode fonts</p>
-                  </ul>
+                  <p><i>Appearances</i>: alignment, colour, subscript, triangles</p>
+                  <p><i>Download</i>: Click on the syntax tree image to download</p>
+                  <p><i>Subscripting</i>: Add subscripts manually by using underscore e.g. [NCMN_s ต้นไม้]</p>
+                  <p><i>Real-time</i>: Graph will update automatically in real-time</p>
+                  <p><i>Spacing</i>: Add spaces in Nonterminal node by using double quote e.g. ["VACT ABC" ปลูก]</p>
+                  <p><i>Unicode</i>: Support unicode fonts</p>
                 </div>
             </Grid>
 
