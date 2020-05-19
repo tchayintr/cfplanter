@@ -1,5 +1,5 @@
 # Yet another syntactic structure annotation built with passion
-### **[CFPlanter.org](https://cfplanter.org)**
+### **[CFPlanter.aiat.or.th](https://cfplanter.aiat.or.th)**
 
 CF stands for Cassia fistula, the national tree and national flower of Thailand. We originally aim to annotate syntactic trees for Thai language by composing a metaphor that we are planting trees for our nation towards Thai Computational Linguistics advancement.
 

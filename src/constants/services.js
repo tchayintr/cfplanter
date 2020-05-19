@@ -4,11 +4,11 @@ export const TASK_SEGTAGPARSE = "segtagparse";
 export const TASK_TAG = "tag";
 export const TASK_TAGPARSE = "tagparse";
 
-export const TASK_PREFIX_SEG = "https://cfparser-servicex.an.r.appspot.com/api/seg/";
-export const TASK_PREFIX_SEGTAG = "https://cfparser-servicex.an.r.appspot.com/api/segtag/";
-export const TASK_PREFIX_SEGTAGPARSE = "https://cfparser-servicex.an.r.appspot.com/api/segtagparse/";
-export const TASK_PREFIX_TAG = "https://cfparser-servicex.an.r.appspot.com/api/tag/";
-export const TASK_PREFIX_TAGPARSE = "https://cfparser-servicex.an.r.appspot.com/api/tagparse/";
+export const TASK_PREFIX_SEG = "https://cfparser.org/api/seg/";
+export const TASK_PREFIX_SEGTAG = "https://cfparser.org/api/segtag/";
+export const TASK_PREFIX_SEGTAGPARSE = "https://cfparser.org/api/segtagparse/";
+export const TASK_PREFIX_TAG = "https://cfparser.org/api/tag/";
+export const TASK_PREFIX_TAGPARSE = "https://cfparser.org/api/tagparse/";
 
 // export const TASK_PREFIX_SEG = "http://127.0.0.1:5000/api/seg/";
 // export const TASK_PREFIX_SEGTAG = "http://127.0.0.1:5000/api/segtag/";
