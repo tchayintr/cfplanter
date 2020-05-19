@@ -7,7 +7,20 @@ To fasten syntactic structure construction, particularly syntactic treebank, we 
 
 ## Annotation modes
 *   Simple: Annotating with labeled bracket manually
-*   **[Semi](https://ieeexplore.ieee.org/document/8442061)**: Annotating along with artificial advisors (soon)
+*   **[Semi](https://ieeexplore.ieee.org/document/8442061)**: Annotating along with artificial advisors
+
+### Semi descriptions
+* segment: ฉันกินข้าว → ฉัน กิน ข้าว
+* tagging: ฉัน กิน ข้าว → [PPRS ฉัน] [VACT กิน] [NCMN ข้าว]
+* parsing: ฉันกินข้าว → [S [NP [PPRS ฉัน]] [VP [VACT กิน] [NP [NCMN ข้าว]]]]
+
+### Common features
+* Appearances: alignment, colour, subscript, triangles
+* Download: Click on the syntax tree image to download
+* Subscripting: Add subscripts manually by using underscore e.g. `[NCMN_s ต้นไม้]`
+* Real-time: Graph will update automatically in real-time
+* Spacing: Add spaces in Nonterminal node by using double quote e.g. `["VACT ABC" ปลูก]`
+* Unicode: Support unicode fonts
 
 ## Documentations
 *   **[Guidelines](https://digital.library.tu.ac.th/tu_dc/frontend/Info/item/dc:138839)**: Annotation standard, particularly for Thai syntactic structures (soon)
