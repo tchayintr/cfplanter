@@ -23,7 +23,9 @@ class SettingsPanel extends React.Component {
     render() {
         return (
             <div id="setting-panel">
-                <SettingSwitcher/>
+                <Grid container direction="column" alignItems="center" justify="center">
+                    <SettingSwitcher/>
+                </Grid>
             </div>
         );
     }
@@ -51,66 +53,64 @@ function SettingSwitcher() {
 
     return (
         <div className={classes.switcher} id="setting-switch">
-            <Grid container direction="column" alignItems="center" justify="center">
-                <FormGroup aria-label="position" row>
-                    <FormControlLabel
-                        control={
-                            <Switch 
-                                id="alignment"
-                                size="small" 
-                                checked={state.alignment}
-                                onChange={handleSwitchChange} 
-                                name="alignment"
-                                color='primary'
-                            />
-                        }
-                        label={<Typography variant="body2" color="textSecondary">alignment</Typography>}
-                        labelPlacement="bottom"
-                    />
-                    <FormControlLabel
-                        control={
-                            <Switch 
-                                id="colour"
-                                size="small" 
-                                checked={state.colour}
-                                onChange={handleSwitchChange} 
-                                name="colour"
-                                color='primary'
-                            />
-                        }
-                        label={<Typography variant="body2" color="textSecondary">colour</Typography>}
-                        labelPlacement="bottom"
-                    />
-                    <FormControlLabel
-                        control={
-                            <Switch 
-                                id="subscript"
-                                size="small" 
-                                checked={state.subscript}
-                                onChange={handleSwitchChange} 
-                                name="subscript"
-                                color='primary'
-                            />
-                        }
-                        label={<Typography variant="body2" color="textSecondary">subscript</Typography>}
-                        labelPlacement="bottom"
-                    />
-                    <FormControlLabel
-                        control={
-                            <Switch 
-                                id="triangles"
-                                size="small" 
-                                checked={state.triangles}
-                                onChange={handleSwitchChange} 
-                                name="triangles"
-                                color='primary'
-                            />
-                        }
-                        label={<Typography variant="body2" color="textSecondary">triangles</Typography>}
-                        labelPlacement="bottom"
-                    />
-                </FormGroup>
-            </Grid>
+            <FormGroup aria-label="position" row>
+                <FormControlLabel
+                    control={
+                        <Switch 
+                            id="alignment"
+                            size="small" 
+                            checked={state.alignment}
+                            onChange={handleSwitchChange} 
+                            name="alignment"
+                            color='primary'
+                        />
+                    }
+                    label={<Typography variant="body2" color="textSecondary">alignment</Typography>}
+                    labelPlacement="bottom"
+                />
+                <FormControlLabel
+                    control={
+                        <Switch 
+                            id="colour"
+                            size="small" 
+                            checked={state.colour}
+                            onChange={handleSwitchChange} 
+                            name="colour"
+                            color='primary'
+                        />
+                    }
+                    label={<Typography variant="body2" color="textSecondary">colour</Typography>}
+                    labelPlacement="bottom"
+                />
+                <FormControlLabel
+                    control={
+                        <Switch 
+                            id="subscript"
+                            size="small" 
+                            checked={state.subscript}
+                            onChange={handleSwitchChange} 
+                            name="subscript"
+                            color='primary'
+                        />
+                    }
+                    label={<Typography variant="body2" color="textSecondary">subscript</Typography>}
+                    labelPlacement="bottom"
+                />
+                <FormControlLabel
+                    control={
+                        <Switch 
+                            id="triangles"
+                            size="small" 
+                            checked={state.triangles}
+                            onChange={handleSwitchChange} 
+                            name="triangles"
+                            color='primary'
+                        />
+                    }
+                    label={<Typography variant="body2" color="textSecondary">triangles</Typography>}
+                    labelPlacement="bottom"
+                />
+            </FormGroup>
         </div>
     );
 }

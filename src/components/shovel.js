@@ -31,7 +31,7 @@ class Shovel extends React.Component {
   }
 
   componentWillUnmount() {
-    const shovelTextarea = document.getElementById('lb');
+    const shovelTextarea = document.getElementById("lb");
     const currentCursor = {
       selectionStart: shovelTextarea.selectionStart,
       selectionEnd: shovelTextarea.selectionEnd,
@@ -42,7 +42,7 @@ class Shovel extends React.Component {
 
   initCursor(event) {
     var tmp = event.target.value;
-    event.target.value = '';
+    event.target.value = "";
     event.target.value = tmp;
 
     const selectionStart = store.getState().selectionStart;
@@ -60,7 +60,7 @@ class Shovel extends React.Component {
   }
 
   handleInitRows = () => {
-    const element = document.getElementById('lb');
+    const element = document.getElementById("lb");
     const currentRows = (element.scrollHeight / Constants.TEXTAREA_LINE_HEIGHT);
     element.rows = currentRows;
   }

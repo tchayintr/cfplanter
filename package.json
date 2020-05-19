@@ -1,9 +1,10 @@
 {
   "name": "cfplanter",
-  "version": "0.2.3b",
+  "version": "0.2.4b",
   "private": true,
   "dependencies": {
     "@material-ui/core": "^4.9.12",
+    "@material-ui/icons": "^4.9.1",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
